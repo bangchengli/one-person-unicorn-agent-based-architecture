@@ -1,0 +1,43 @@
+```json
+[
+    {
+        "name": "max_sharpe",
+        "weights": {
+            "AAPL": 0.25,
+            "MSFT": 0.20,
+            "GOOGL": 0.15,
+            "AMZN": 0.10,
+            "NVDA": 0.10,
+            "META": 0.10,
+            "TSLA": 0.05,
+            "JNJ": 0.05
+        }
+    },
+    {
+        "name": "medium",
+        "weights": {
+            "AAPL": 0.20,
+            "MSFT": 0.15,
+            "GOOGL": 0.15,
+            "AMZN": 0.10,
+            "NVDA": 0.10,
+            "META": 0.10,
+            "TSLA": 0.10,
+            "JNJ": 0.10
+        }
+    },
+    {
+        "name": "min_volatility",
+        "weights": {
+            "AAPL": 0.10,
+            "MSFT": 0.10,
+            "GOOGL": 0.10,
+            "AMZN": 0.10,
+            "NVDA": 0.10,
+            "META": 0.10,
+            "TSLA": 0.10,
+            "JNJ": 0.30
+        }
+    }
+]
+```
