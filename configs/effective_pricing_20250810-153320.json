@@ -1,0 +1,61 @@
+{
+  "PRICE_PER_MILLION": {
+    "gpt-5": {
+      "input": 1.25,
+      "output": 10.0
+    },
+    "gpt-5-mini": {
+      "input": 0.25,
+      "output": 2.0
+    },
+    "gpt-5-nano": {
+      "input": 0.05,
+      "output": 0.4
+    },
+    "gpt-4o": {
+      "input": 2.5,
+      "output": 10.0
+    },
+    "gpt-4o-mini": {
+      "input": 0.15,
+      "output": 0.6
+    },
+    "o3": {
+      "input": 2.0,
+      "output": 8.0
+    },
+    "o4-mini": {
+      "input": 1.1,
+      "output": 4.4
+    }
+  },
+  "DEEPSEEK_PRICING": {
+    "standard": {
+      "deepseek-chat": {
+        "input_hit": 0.07,
+        "input_miss": 0.27,
+        "output": 1.1
+      },
+      "deepseek-reasoner": {
+        "input_hit": 0.14,
+        "input_miss": 0.55,
+        "output": 2.19
+      }
+    },
+    "discount": {
+      "deepseek-chat": {
+        "input_hit": 0.035,
+        "input_miss": 0.135,
+        "output": 0.55
+      },
+      "deepseek-reasoner": {
+        "input_hit": 0.035,
+        "input_miss": 0.135,
+        "output": 0.55
+      }
+    }
+  },
+  "source_file": "D:\\vscode-project\\portfolio_benchmark_package\\configs\\model_pricing.json",
+  "source_url": "",
+  "ts": "2025-08-10T15:33:20.699343"
+}
