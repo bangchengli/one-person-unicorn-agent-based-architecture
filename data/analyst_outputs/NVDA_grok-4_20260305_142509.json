@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "grok-4"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "positive",
+      "impact": "high"
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "negative",
+      "impact": "medium"
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "positive",
+      "impact": "high"
+    },
+    {
+      "headline": "Microsoft Perfectly Poised for 2026 After Underperforming in 2025",
+      "sentiment": "neutral",
+      "impact": "low"
+    },
+    {
+      "headline": "This Technology Stock Could Turn $1,000 Into $10,000",
+      "sentiment": "positive",
+      "impact": "medium"
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "bullish",
+    "reasoning": "Despite the short-term bearish technical trend indicated by negative 5-day returns and a bearish signal, the overall news sentiment is predominantly positive, driven by projections of massive semiconductor and AI growth in 2026, with Nvidia positioned as a top beneficiary. This could lead to a rebound as market sentiment shifts toward long-term AI infrastructure demand, outweighing concerns like short positions from investors such as Michael Burry."
+  },
+  "risk_levels": {
+    "support": [
+      182.5,
+      180.0
+    ],
+    "resistance": [
+      186.36,
+      190.0
+    ]
+  },
+  "full_assessment": "The technical snapshot shows a bearish trend for NVDA with high volatility and a neutral RSI, suggesting potential consolidation around current levels. However, recent news highlights strong positive drivers in AI and semiconductor sectors, correlating positively with longer-term growth prospects but contrasting with short-term technical weakness. This mixed signal points to upside potential if news momentum builds, though risks remain from market shorts and sector competition.",
+  "_ops": {
+    "llm_latency_sec": 47.55735111236572,
+    "input_tokens": 4085,
+    "output_tokens": 700,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.022755
+  },
+  "_quant_eval": {
+    "predicted_support": 182.5,
+    "predicted_resistance": 186.36,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 0.65,
+    "coverage_ratio": 0.2
+  }
+}

@@ -1,0 +1,4 @@
+Model,Ticker,Date,Status,Latency (s),Input Tokens,Output Tokens,Est. Cost ($),Direction,Output Length,Support Breached,Resistance Breached,MAE Margin (%),Coverage Ratio
+claude-sonnet-4-20250514,NVDA,2026-03-05,Success,15.94,3111,817,0.021588,neutral_to_bearish,797,False,True,1.15,0.2
+meta-llama/llama-4-maverick,NVDA,2026-03-05,Success,6.34,2470,723,0.000804,Neutral,417,False,True,1.99,1.0
+grok-4,NVDA,2026-03-05,Success,57.71,4243,798,0.024699,bearish,652,False,True,0.65,0.2

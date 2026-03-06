@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "meta-llama/llama-4-maverick"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "positive",
+      "impact": "high"
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "negative",
+      "impact": "medium"
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "positive",
+      "impact": "high"
+    },
+    {
+      "headline": "Microsoft Perfectly Poised for 2026 After Underperforming in 2025",
+      "sentiment": "positive",
+      "impact": "medium"
+    },
+    {
+      "headline": "This Technology Stock Could Turn $1,000 Into $10,000",
+      "sentiment": "positive",
+      "impact": "high"
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "neutral",
+    "reasoning": "The technical snapshot indicates a bearish trend signal, while recent news sentiment is generally positive, driven by semiconductor and AI-related growth prospects. The RSI14 is near neutral, suggesting balanced buying and selling pressure. The conflicting signals result in a neutral forecast direction for the next week."
+  },
+  "risk_levels": {
+    "support": [
+      180,
+      175
+    ],
+    "resistance": [
+      190,
+      195
+    ]
+  },
+  "full_assessment": "Nvidia is currently at a critical juncture with a bearish technical trend but positive news sentiment surrounding AI and semiconductor growth. The stock's RSI is near neutral, and moving averages indicate potential support and resistance levels. Investors should monitor these levels closely for potential breakout or breakdown signals.",
+  "_ops": {
+    "llm_latency_sec": 12.1539466381073,
+    "input_tokens": 2354,
+    "output_tokens": 649,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.0007424999999999999
+  },
+  "_quant_eval": {
+    "predicted_support": 180.0,
+    "predicted_resistance": 190.0,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 1.99,
+    "coverage_ratio": 1.0
+  }
+}

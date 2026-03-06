@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "claude-sonnet-4-20250514"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.5,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026",
+      "sentiment": "bullish",
+      "impact": "Bank of America predicts 30% industry growth to $1T in 2026, with NVDA maintaining 90%+ data center GPU market share"
+    },
+    {
+      "headline": "Michael Burry Is Short AI Stocks Including NVIDIA",
+      "sentiment": "bearish",
+      "impact": "Prominent investor short NVDA due to concerns about asset depreciation costs and AI bubble concerns"
+    },
+    {
+      "headline": "Meta Emerges as Second-Largest AI Revenue Generator After Nvidia",
+      "sentiment": "neutral",
+      "impact": "Validates NVDA's AI leadership while highlighting growing competition and ecosystem development"
+    },
+    {
+      "headline": "Nebius AI Infrastructure Stock Surges 207%",
+      "sentiment": "bullish",
+      "impact": "AI infrastructure capacity shortages benefit GPU providers like NVDA, supporting demand fundamentals"
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "sideways_to_bearish",
+    "reasoning": "Mixed news sentiment conflicts with bearish technicals. RSI at neutral 53.4, price below MA50, and recent 5-day decline suggest consolidation or further weakness despite positive long-term AI spending forecasts."
+  },
+  "risk_levels": {
+    "support": [
+      182.5,
+      175.0,
+      165.0
+    ],
+    "resistance": [
+      186.36,
+      195.0,
+      210.0
+    ]
+  },
+  "full_assessment": "NVDA presents a complex technical-fundamental divergence. While news highlights massive AI infrastructure spending growth ($1T by 2026) and NVDA's dominant market position, technical indicators show bearish momentum with price below MA50 and negative 5-day returns. Michael Burry's short position adds institutional selling pressure. The stock sits at a critical juncture where long-term AI tailwinds conflict with near-term technical weakness. High annualized volatility of 51% suggests continued choppy trading. Current price action suggests investors should wait for clearer directional signals before taking large positions, with MA20 at 182.5 serving as key support.",
+  "_ops": {
+    "llm_latency_sec": 16.1141357421875,
+    "input_tokens": 2993,
+    "output_tokens": 860,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.021879
+  },
+  "_quant_eval": {
+    "predicted_support": 182.5,
+    "predicted_resistance": 186.36,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 0.65,
+    "coverage_ratio": 0.2
+  }
+}
