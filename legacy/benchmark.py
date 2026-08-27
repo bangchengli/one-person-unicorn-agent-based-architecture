@@ -199,14 +199,15 @@ def run_multi_models(
     end: str,
     use_web_search: bool = True,
     *,
-    return_portfolios: bool = True   # NEW: 默认就把组合表也返回/落盘
+    return_portfolios: bool = True   # NEW: also return and persist the portfolio tables by default
 ) -> pd.DataFrame | tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """
-    遍历多家模型，逐个跑 benchmark_models(..., return_portfolios=True)，
-    汇总 metrics 以及 portfolios_long / portfolios_wide 到单一 DataFrame，并各自落盘。
-    返回：
-      - 仅 metrics DataFrame（当 return_portfolios=False）
-      - 或 (metrics_df, portfolios_long_all, portfolios_wide_all)
+    Iterate over the model specs, running benchmark_models(..., return_portfolios=True)
+    for each. Aggregate metrics plus portfolios_long / portfolios_wide into single
+    DataFrames and write each to disk.
+    Returns:
+      - the metrics DataFrame alone (when return_portfolios=False)
+      - or (metrics_df, portfolios_long_all, portfolios_wide_all)
     """
     ensure_dirs()
 
@@ -215,11 +216,11 @@ def run_multi_models(
     wide_all_rows = []
 
     for spec in model_specs:
-        label = spec["name"]                 # 展示别名
+        label = spec["name"]                 # display alias
         provider = spec["provider"].lower()  # 'openai' | 'anthropic' | 'xai' | 'deepseek' | 'llama'
-        model_id = spec["model"]             # 真实 API model id
+        model_id = spec["model"]             # real API model id
 
-        # 统一都要 portfolios，因此都传 return_portfolios=True
+        # portfolios are always wanted, so return_portfolios=True throughout
         if provider == "openai":
             res_tuple = benchmark_models(
                 models=[model_id],
@@ -245,7 +246,7 @@ def run_multi_models(
 
         metrics_df, portfolios_long, portfolios_wide = res_tuple
 
-        # 用别名覆盖显示（metrics 和两个组合表都一致）
+        # override the display name with the alias, consistently across metrics and both portfolio tables
         metrics_df = metrics_df.copy()
         metrics_df.loc[:, "model"] = label
         metrics_list.append(metrics_df)
@@ -263,7 +264,7 @@ def run_multi_models(
     if not metrics_list:
         return (pd.DataFrame(), pd.DataFrame(), pd.DataFrame()) if return_portfolios else pd.DataFrame()
 
-    # —— 合并并落盘 ——
+    # -- merge and persist --
     combined_metrics = pd.concat(metrics_list, ignore_index=True)
     ts = pd.Timestamp.now().strftime("%Y%m%d-%H%M%S")
     out_metrics = (CSV_SAVE_DIR / f"benchmark_all_models_{ts}.csv")

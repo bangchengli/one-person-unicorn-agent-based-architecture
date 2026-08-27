@@ -12,7 +12,6 @@ What replaced each file:
 | `analyst.py` | `analyst/` package + `python run.py analyst` |
 | `benchmark.py` | `portfolio/benchmark.py` + `python run.py portfolio` |
 | `model_portfolio_benchmark.py` | same as above (this file was a whole second copy of it) |
-| `debug.py` | `python run.py doctor` |
 | `forcasting.py` | standalone experiment, not wired into the paper pipeline |
 | `deepseek_r1_smoketest.py` | `python run.py doctor` covers provider reachability |
 | `notebooks/*.ipynb` | exploratory work; the `.py` pipeline is authoritative |
@@ -21,15 +20,34 @@ What replaced each file:
 
 - **Hardcoded absolute paths.** `model_portfolio_benchmark.py` and
   `forcasting.py` write to `D:/my-fin-project/...`, a drive that does not exist
-  on the current machine. `analyst.py` and `debug.py` hardcode
-  `C:/Users/bangc/one-person-unicorn-infra/...`, so they only ever worked from
+  on the current machine. `analyst.py` hardcodes
+  `C:/Users/<user>/one-person-unicorn-infra/...`, so they only ever worked from
   one directory on one computer.
+- **Removed.** `debug.py`, a wholly non-English environment-diagnostic script,
+  was deleted; `python run.py doctor` covers the same checks.
 - **Credential files that are gone.** `analyst.py` and `forcasting.py` load
   `OAI_CONFIG_LIST` and `config_api_keys`, which carried plaintext API keys and
   have been removed from the repo. Everything now reads `.env`.
 - **Notebook keys.** The three notebooks that hardcoded a Polygon and an OpenAI
   key as `os.getenv(..., "<literal key>")` defaults have had those defaults
-  replaced with `""`. The notebooks are otherwise untouched, including outputs.
+  replaced with `""`.
+
+## What was edited in these archived files
+
+They are kept for provenance, so the changes are listed rather than left to be
+noticed:
+
+- Comments and printed strings in `benchmark.py` and in `notebooks/fin-analysis.ipynb`,
+  `notebooks/portfolio.ipynb`, `notebooks/portfolio_test.ipynb` were translated to
+  English. **No code logic was changed.**
+- Cell outputs were cleared from those three notebooks. They contained printed
+  progress text and, in `portfolio_test.ipynb`, an absolute local path.
+  `notebooks/managerial.ipynb` keeps its outputs — they record a benchmark run
+  and contain nothing personal.
+- The hardcoded credentials described above were removed.
+
+The recorded experiment data behind the paper is not here; it is in
+`data/provenance/`, which is untouched.
 
 ## Known defects preserved here
 
