@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or refer to the architecture it implements, please cite the paper below."
+title: "One-Person Unicorn: An Agent-Based Architecture for Automated Financial Services"
+abstract: >-
+  Companion code for an agent-based architecture for automated financial
+  services, evaluated across GPT/o-series, Claude, Grok, DeepSeek and Llama on
+  cost, latency and output reliability.
+authors:
+  - family-names: Li
+    given-names: Bangcheng
+    affiliation: "Carroll School of Management, Boston College"
+    orcid: "https://orcid.org/0009-0001-7959-1362"
+license: MIT
+repository-code: "https://github.com/bangchengli/one-person-unicorn-agent-based-architecture"
+type: software
+preferred-citation:
+  type: article
+  title: "One-Person Unicorn: An Agent-Based Architecture for Automated Financial Services"
+  authors:
+    - family-names: Li
+      given-names: Bangcheng
+      affiliation: "Carroll School of Management, Boston College"
+      orcid: "https://orcid.org/0009-0001-7959-1362"
+  journal: "International Journal of Information Systems and Social Change"
+  volume: 17
+  issue: 1
+  year: 2026
+  doi: "10.4018/IJISSC.409374"
+  publisher:
+    name: "IGI Global"

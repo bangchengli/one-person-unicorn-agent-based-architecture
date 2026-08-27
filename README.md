@@ -2,25 +2,22 @@
 
 Companion code for the paper of the same name.
 
-> **One-Person Unicorn: An Agent-Based Architecture for Automated Financial Services**
-> Bangcheng Li, Carroll School of Management, Boston College
-> *International Journal of Information Systems and Social Change*, 17(1), 2026
->
-> **Paper:** https://doi.org/10.4018/IJISSC.409374
-> **Publisher:** [IGI Global](https://www.igi-global.com/article/one-person-unicorn/409374)
-> Open Access under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+**Bangcheng Li** ([0009-0001-7959-1362](https://orcid.org/0009-0001-7959-1362)) — Carroll School of Management, Boston College<br>
+*International Journal of Information Systems and Social Change*, 17(1), 2026
+
+[**Read the paper**](https://doi.org/10.4018/IJISSC.409374) · [IGI Global](https://www.igi-global.com/article/one-person-unicorn/409374) · Open Access under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 An agent-based architecture for automated financial services, evaluated across
 GPT/o-series, Claude, Grok, DeepSeek and Llama on cost, latency and output
 quality.
 
-### Citation
+<details>
+<summary><b>Cite this work</b></summary>
 
 ```bibtex
 @article{li2026onepersonunicorn,
   author  = {Li, Bangcheng},
-  title   = {One-Person Unicorn: An Agent-Based Architecture for Automated
-             Financial Services},
+  title   = {One-Person Unicorn: An Agent-Based Architecture for Automated Financial Services},
   journal = {International Journal of Information Systems and Social Change},
   volume  = {17},
   number  = {1},
@@ -28,6 +25,8 @@ quality.
   doi     = {10.4018/IJISSC.409374}
 }
 ```
+
+</details>
 
 | Paper Figure 1 | Code |
 |---|---|
