@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "claude-sonnet-4-20250514"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "high_20d": 192.69,
+    "low_20d": 170.31,
+    "atr14": 4.995357142857141,
+    "vwap20": 181.56743094072553,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026",
+      "sentiment": "bullish",
+      "impact": "Bank of America predicts 30% industry revenue growth to $1T in 2026, with NVDA maintaining 90%+ data center GPU market share"
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock Despite 'Ridiculous' Valuation",
+      "sentiment": "bearish",
+      "impact": "Prominent investor Burry explicitly shorting AI stocks including NVIDIA, citing concerns about asset depreciation costs"
+    },
+    {
+      "headline": "Meta Becomes Second-Largest AI Monetizer After Nvidia",
+      "sentiment": "neutral",
+      "impact": "Confirms NVDA's dominant position in AI revenue but highlights competitive landscape in AI monetization"
+    },
+    {
+      "headline": "Microsoft Perfectly Poised for 2026 After Underperforming in 2025",
+      "sentiment": "neutral",
+      "impact": "Mixed signal - tech underperformance trend but continued AI infrastructure demand through Azure partnerships"
+    },
+    {
+      "headline": "Nebius AI Infrastructure Stock Surges 207% in 2025",
+      "sentiment": "bullish",
+      "impact": "Strong AI infrastructure demand with GPU capacity shortages supporting NVDA's positioning and pricing power"
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "sideways_to_slightly_bearish",
+    "reasoning": "Technical bearish signal with price below MA50 ($186.36) conflicts with fundamental bullish news on AI infrastructure spending. RSI neutral at 53.4. Near-term consolidation likely as market digests mixed signals."
+  },
+  "risk_levels": {
+    "support": [
+      182.5,
+      181.57,
+      170.31
+    ],
+    "resistance": [
+      192.69,
+      195.0,
+      200.0
+    ]
+  },
+  "full_assessment": "NVDA presents a complex risk-reward scenario heading into 2026. While fundamental drivers remain exceptionally strong - with trillion-dollar semiconductor spending projections and 90%+ data center GPU market dominance - technical indicators suggest near-term bearish momentum. The stock trades below its 50-day MA despite positive 20-day returns of 2.8%. Notable headwinds include high-profile short interest from Michael Burry and general tech sector underperformance. However, persistent AI infrastructure capacity shortages and major cloud provider partnerships provide strong fundamental support. High volatility (51% annualized) suggests option strategies may be preferred over directional bets. Key inflection point at $182.50 MA20 support - break below targets $170 range, while reclaim of $192.69 resistance opens path to new highs.",
+  "_ops": {
+    "llm_latency_sec": 17.49094247817993,
+    "input_tokens": 3111,
+    "output_tokens": 987,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.024138
+  },
+  "_quant_eval": {
+    "predicted_support": 182.5,
+    "predicted_resistance": 192.69,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 0.65,
+    "coverage_ratio": 1.0
+  }
+}

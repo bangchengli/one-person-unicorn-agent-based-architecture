@@ -1,0 +1,1 @@
+[{"name":"AAPL"},{"name":"MSFT"},{"name":"GOOGL"},{"name":"AMZN"},{"name":"TSLA"},{"name":"JNJ"},{"name":"UNH"},{"name":"PFE"},{"name":"JPM"},{"name":"BAC"},{"name":"BRK.B"},{"name":"XOM"},{"name":"CVX"},{"name":"NEE"},{"name":"DOW"},{"name":"HD"},{"name":"WMT"},{"name":"KO"},{"name":"V"},{"name":"MA"},{"name":"SPG"}]

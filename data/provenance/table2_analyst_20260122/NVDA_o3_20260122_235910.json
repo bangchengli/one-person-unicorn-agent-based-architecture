@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2026-01-22",
+    "model": "o3"
+  },
+  "market_snapshot": {
+    "last_close": 186.5,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish"
+  },
+  "news_analysis": [
+    {
+      "headline": "Better Artificial Intelligence Stock: Nvidia vs. Meta Platforms",
+      "sentiment": "neutral-positive",
+      "impact": "Highlights NVDA’s AI leadership but notes valuation concerns; modestly supportive."
+    },
+    {
+      "headline": "4 Top Artificial Intelligence Stocks to Buy Right Now",
+      "sentiment": "positive",
+      "impact": "Places NVDA first among AI hardware winners; reinforces bullish demand narrative."
+    },
+    {
+      "headline": "Forget Nvidia And Broadcom, These 5 Small-Cap Chip Stocks Could Rally Big This Year",
+      "sentiment": "neutral-negative",
+      "impact": "Shifts attention to smaller peers; implies NVDA gains might slow as investors rotate."
+    },
+    {
+      "headline": "Magna International Inc. Announces ... NVIDIA DRIVE Hyperion-compatible ECUs",
+      "sentiment": "positive",
+      "impact": "Shows expanding automotive partnerships, supportive for long-term growth."
+    },
+    {
+      "headline": "I Nailed My Nvidia Market Cap Prediction ... Here's Where I Predict It's Going in 2026",
+      "sentiment": "strong-positive",
+      "impact": "Bold $6T market-cap call; fuels short-term enthusiasm and momentum buying."
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "up",
+    "reasoning": "News flow is overwhelmingly bullish on AI demand, new partnerships, and lofty price targets, while the stock is holding its 20-day MA (≈182.5) and sits fractionally above the 50-day MA despite a mild 5-day pullback. RSI is neutral (≈53), leaving room for upside. Expect a rebound toward the upper end of the recent range if support near 182 holds."
+  },
+  "risk_levels": {
+    "support": [
+      182.0,
+      175.0
+    ],
+    "resistance": [
+      190.0,
+      200.0
+    ]
+  },
+  "full_assessment": "Technical picture shows a short-term loss of momentum (-1.4% over 5 days) within a still-intact medium-term up-trend, as price remains above both 20- and 50-day MAs. Volatility is elevated (51% annualized) but within historical norms for NVDA. Current news cycle is decisively bullish: multiple outlets emphasize sustained AI chip demand, expanded automotive partnerships, and ambitious valuation targets. The lone note of caution is rotation chatter into smaller chip names, suggesting competition for investor capital. Overall, positive sentiment counteracts the weak trend signal, making a near-term bounce the higher-probability outcome. Traders can consider long exposure with stops below $182 and trim gains around $190–$200; a break under $175 would invalidate the bullish thesis.",
+  "_ops": {
+    "llm_latency_sec": 10.141573667526245,
+    "input_tokens": 1985,
+    "output_tokens": 1301,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.014378
+  }
+}

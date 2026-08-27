@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2026-01-22",
+    "model": "o4-mini"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.5005,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Better Artificial Intelligence Stock: Nvidia vs. Meta Platforms",
+      "sentiment": "neutral",
+      "impact": "medium"
+    },
+    {
+      "headline": "4 Top Artificial Intelligence Stocks to Buy Right Now",
+      "sentiment": "positive",
+      "impact": "high"
+    },
+    {
+      "headline": "Forget Nvidia And Broadcom, These 5 Small-Cap Chip Stocks Could Rally Big This Year",
+      "sentiment": "slightly negative",
+      "impact": "medium"
+    },
+    {
+      "headline": "Magna International Inc. Announces Date for Q4 & Year End 2025 Results and 2026 Outlook Webcast",
+      "sentiment": "positive",
+      "impact": "low"
+    },
+    {
+      "headline": "I Nailed My Nvidia Market Cap Prediction in 2025. Here's Where I Predict It's Going in 2026 (Hint: You're Going to Want to Buy Now)",
+      "sentiment": "positive",
+      "impact": "high"
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "slightly bullish",
+    "reasoning": "Despite a bearish trend signal and mild near-term pullback (5d return -1.4%), the stock sits above its 20-day MA with RSI in neutral zone. Overarching AI demand drivers and positive news flow support modest gains."
+  },
+  "risk_levels": {
+    "support": [
+      182.5,
+      180.0
+    ],
+    "resistance": [
+      186.36,
+      190.0
+    ]
+  },
+  "full_assessment": "Nvidia’s technicals show mixed signals: a near-term pullback within a broader uptrend, RSI neutral at 53 and price above MA20 but below MA50, accompanied by a bearish trend signal. News sentiment skews positive, highlighting strong AI chip demand, bullish market-cap forecasts, and strategic partnerships, offset by competitor valuation debates and small-cap hype drawing some attention away. Combined, the data suggest limited downside near 182.5 and upside potential toward 190 over the next week, favoring a slightly bullish stance with guarded risk management.",
+  "_ops": {
+    "llm_latency_sec": 16.98133111000061,
+    "input_tokens": 1987,
+    "output_tokens": 1980,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.010897700000000001
+  }
+}

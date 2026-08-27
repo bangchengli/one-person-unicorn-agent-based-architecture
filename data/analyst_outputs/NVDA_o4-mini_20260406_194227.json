@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "o4-mini"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "high_20d": 192.69,
+    "low_20d": 170.31,
+    "atr14": 4.995357142857141,
+    "vwap20": 181.56743094072553,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.5005,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "positive",
+      "impact": "high"
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "negative",
+      "impact": "medium"
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "neutral",
+      "impact": "low"
+    },
+    {
+      "headline": "Microsoft Perfectly Poised for 2026 After Underperforming in 2025",
+      "sentiment": "neutral",
+      "impact": "low"
+    },
+    {
+      "headline": "This Technology Stock Could Turn $1,000 Into $10,000",
+      "sentiment": "neutral",
+      "impact": "low"
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "neutral",
+    "reasoning": "Mixed near-term technicals (bearish trend signal, neutral RSI) and balanced news sentiment imply limited directional conviction over the next week."
+  },
+  "risk_levels": {
+    "support": [
+      182.5005,
+      181.56743094072553,
+      170.31
+    ],
+    "resistance": [
+      186.3574,
+      192.69,
+      200.0
+    ]
+  },
+  "full_assessment": "Nvidia remains a leader in AI-driven semiconductors, supported by bullish industry forecasts, but faces short-term technical headwinds and some negative headline pressure. The stock trades below its 50-day moving average with a bearish trend signal, while RSI sits in neutral territory. Mixed news sentiment and sector competition suggest a muted near-term outlook, though long-term fundamentals remain robust.",
+  "_ops": {
+    "llm_latency_sec": 21.97105646133423,
+    "input_tokens": 2132,
+    "output_tokens": 2348,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.0126764
+  },
+  "_quant_eval": {
+    "predicted_support": 182.5005,
+    "predicted_resistance": 186.3574,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 0.65,
+    "coverage_ratio": 0.2
+  }
+}

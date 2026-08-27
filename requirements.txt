@@ -1,0 +1,16 @@
+# Core pipeline
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+python-dotenv>=1.0
+
+# LLM providers (OpenAI SDK also drives DeepSeek via base_url)
+openai>=1.40
+pyautogen>=0.2.30
+
+# Portfolio optimization + reporting
+PyPortfolioOpt>=1.5.5
+matplotlib>=3.7
+
+# Parquet price cache
+pyarrow>=14.0

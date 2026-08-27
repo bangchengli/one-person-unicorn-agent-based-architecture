@@ -1,0 +1,11 @@
+Model,Ticker,Date,Status,Latency (s),Input Tokens,Output Tokens,Est. Cost ($),Direction,Output Length,Error Info
+claude-sonnet-4-20250514,NVDA,2026-01-22,Success,16.81,2949,793,0.020742,neutral_to_bullish,681,
+grok-4,NVDA,2026-01-22,Success,37.28,4092,644,0.021936,up,392,
+meta-llama/llama-4-maverick,NVDA,2026-01-22,Success,3.08,2874,671,0.000834,Up,355,[Errno 2] No such file or directory: 'D:\\my-fin-project\\academic_results\\NVDA_meta-llama/llama-4-maverick_20260122_235636.json'
+gpt-4o,NVDA,2026-01-22,Success,13.46,1979,656,0.011508,moderately bullish,476,
+gpt-4o-mini,NVDA,2026-01-22,Success,11.65,1981,653,0.000689,neutral,281,
+gpt-5-mini,NVDA,2026-01-22,Success,33.38,2153,1949,0.004436,slightly_up,905,
+gpt-5-nano,NVDA,2026-01-22,Success,31.97,2155,3833,0.001641,neutral,1009,
+gpt-5,NVDA,2026-01-22,Success,50.71,2151,2728,0.029969,sideways,942,
+o3,NVDA,2026-01-22,Success,10.14,1985,1301,0.014378,up,787,
+o4-mini,NVDA,2026-01-22,Success,16.98,1987,1980,0.010898,slightly bullish,564,

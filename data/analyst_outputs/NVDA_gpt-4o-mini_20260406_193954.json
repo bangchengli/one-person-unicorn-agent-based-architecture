@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "gpt-4o-mini"
+  },
+  "market_snapshot": {
+    "last_close": 186.5,
+    "high_20d": 192.69,
+    "low_20d": 170.31,
+    "atr14": 4.995357142857141,
+    "vwap20": 181.56743094072553,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "positive",
+      "impact": "Potential increase in NVDA's stock price due to forecast demand in the semiconductor sector."
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "negative",
+      "impact": "Concerns around AI stock valuations including NVDA may dampen investor confidence."
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "positive",
+      "impact": "Highlights NVDA's leading position in AI, supporting growth expectations."
+    },
+    {
+      "headline": "Microsoft Perfectly Poised for 2026 After Underperforming in 2025",
+      "sentiment": "neutral",
+      "impact": "Indicates competitive landscape and potential challenges for NVDA."
+    },
+    {
+      "headline": "This Technology Stock Could Turn $1,000 Into $10,000",
+      "sentiment": "positive",
+      "impact": "Signals optimism in AI and tech sectors, indirectly benefiting NVDA."
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "sideways",
+    "reasoning": "Despite positive news surrounding semiconductor growth and AI, bearish technical signals and mixed market sentiment suggest limited movement."
+  },
+  "risk_levels": {
+    "support": [
+      170.31
+    ],
+    "resistance": [
+      192.69
+    ]
+  },
+  "full_assessment": "NVIDIA's recent price action has been weak, showing a bearish trend despite favorable industry forecasts. Positive sentiment from significant semiconductor spending increases is offset by valuation concerns among analysts. The short position perspectives shared in the market add caution. Overall, NVDA's strong market position in AI presents long-term growth potential, yet immediate price movement may face challenges.",
+  "_ops": {
+    "llm_latency_sec": 16.57171368598938,
+    "input_tokens": 2126,
+    "output_tokens": 728,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.0007556999999999999
+  },
+  "_quant_eval": {
+    "predicted_support": 170.31,
+    "predicted_resistance": 192.69,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 7.18,
+    "coverage_ratio": 1.0
+  }
+}

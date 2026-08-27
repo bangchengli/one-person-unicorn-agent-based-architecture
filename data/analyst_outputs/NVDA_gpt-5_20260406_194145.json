@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "gpt-5"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "high_20d": 192.69,
+    "low_20d": 170.31,
+    "atr14": 4.995357142857141,
+    "vwap20": 181.56743094072553,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "positive",
+      "impact": "Bullish for NVDA near term; reinforces AI infrastructure demand and NVDA’s dominant data center GPU share, supporting dips and challenging resistance near 190–193."
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "negative",
+      "impact": "Bearish headline for AI equities as Burry indicates short exposure to NVDA; may cap rallies and increase headline-driven volatility around key resistance."
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "positive",
+      "impact": "Constructive read-through: strong AI monetization at Meta implies sustained demand for NVDA GPUs; supports continuation toward recent highs if technicals break out."
+    },
+    {
+      "headline": "Microsoft Perfectly Poised for 2026 After Underperforming in 2025",
+      "sentiment": "positive",
+      "impact": "Positive AI/cloud setup at a key NVDA customer/partner; underpins medium-term demand and offers a tailwind to break consolidation if risk appetite improves."
+    },
+    {
+      "headline": "This Technology Stock Could Turn $1,000 Into $10,000",
+      "sentiment": "positive",
+      "impact": "AI infrastructure capacity expansion (GPU cloud) signals strong downstream demand for NVDA hardware; supports higher troughs and reduces downside follow-through."
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "range-bound with slight upside bias",
+    "reasoning": "News flow skews net-positive for AI/semi demand (BoA $1T call, strong AI monetization at key platforms), partially offset by a notable short call headline (Burry). Technically, NVDA is near the 50-day MA with RSI ~53 and a bearish system signal; price sits between MA20 and the 20D high. Expect chop between support ~182–186 and resistance ~189–193, with a potential test of 192.7 if bullish news persists."
+  },
+  "risk_levels": {
+    "support": [
+      186.36,
+      182.5,
+      181.57,
+      176.5,
+      170.31
+    ],
+    "resistance": [
+      189,
+      192.69,
+      195,
+      200
+    ]
+  },
+  "full_assessment": "NVDA’s technicals indicate consolidation: last close 186.5 sits marginally above the 50-day MA (186.36) and above the 20-day MA (182.5), with RSI neutral at 53 and ATR indicating elevated but manageable volatility. The trend signal is flagged bearish, yet price action is holding core moving averages and remains within a 20D range of 170–193. News skew is broadly supportive: a major bank’s $1T semi revenue call with NVDA as a top pick, AI monetization strength at Meta, and positive AI positioning at Microsoft all reinforce data center GPU demand. A countervailing headline—Burry shorting AI stocks including NVDA—could constrain breakouts and inject volatility. Near term (1 week), base case is range trading with a slight upside bias: buyers likely defend 186/182 on dips, while sellers emerge near 189–193. A decisive close above 192.7 would open 195/200; failure to hold 182 risks a move toward 176.5 (≈2x ATR from the high area) and then 170.31 (20D low). Positioning tactically favors buy-the-dip near 182–186 with tight risk controls, while respecting headline risk and the still-bearish system signal.",
+  "_ops": {
+    "llm_latency_sec": 40.218247175216675,
+    "input_tokens": 2296,
+    "output_tokens": 2931,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.03218
+  },
+  "_quant_eval": {
+    "predicted_support": 186.36,
+    "predicted_resistance": 189.0,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": true,
+    "resistance_breached": true,
+    "mae_margin_pct": -1.42,
+    "coverage_ratio": 0.6
+  }
+}

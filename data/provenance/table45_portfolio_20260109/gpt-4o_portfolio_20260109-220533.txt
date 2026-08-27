@@ -1,0 +1,29 @@
+```json
+[
+    {"name": "AAPL"},
+    {"name": "MSFT"},
+    {"name": "GOOGL"},
+    {"name": "AMZN"},
+    {"name": "TSLA"},
+    {"name": "JNJ"},
+    {"name": "V"},
+    {"name": "JPM"},
+    {"name": "BRK.B"},
+    {"name": "NVDA"},
+    {"name": "PG"},
+    {"name": "DIS"},
+    {"name": "MA"},
+    {"name": "XOM"},
+    {"name": "NKE"},
+    {"name": "UNH"},
+    {"name": "HD"},
+    {"name": "VZ"},
+    {"name": "PYPL"},
+    {"name": "PEP"},
+    {"name": "INTC"},
+    {"name": "KO"},
+    {"name": "CSCO"},
+    {"name": "MRK"},
+    {"name": "ABT"}
+]
+```

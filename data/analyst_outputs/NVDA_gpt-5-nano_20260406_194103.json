@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31T23:59:00Z",
+    "model": "gpt-5-nano"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "high_20d": 192.69,
+    "low_20d": 170.31,
+    "atr14": 4.995357142857141,
+    "vwap20": 181.56743094072553,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "Positive",
+      "impact": "Reinforces NVDA's leadership in AI/data-center GPUs and implies a strong growth backdrop from AI infrastructure demand."
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "Negative",
+      "impact": "Cites NVDA as a target of short interest; adds caution to near-term sentiment and potential volatility in AI-related equities."
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "Positive",
+      "impact": "Positions NVDA as the benchmark AI monetizer, supporting a bullish narrative around its AI platform dominance."
+    },
+    {
+      "headline": "Microsoft Perfectly Poised for 2026 After Underperforming in 2025",
+      "sentiment": "Neutral",
+      "impact": "Highlights the broader AI ecosystem; NVDA benefits indirectly from AI adoption via cloud spend and ecosystem expansion, but not NVDA-specific."
+    },
+    {
+      "headline": "This Technology Stock Could Turn $1,000 Into $10,000",
+      "sentiment": "Positive",
+      "impact": "AI infrastructure players (including GPU/accelerator providers) point to rising demand for NVDA’s products; constructive for the AI hardware cycle."
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "mixed-to-bullish",
+    "reasoning": "News cycle is broadly constructive for AI demand and NVDA’s leadership, but the technical backdrop shows a bearish trend with the price trading around the MA50 and near-term resistance at the 20D high. Over a 1-week horizon, a test of resistance near 192.69 is plausible; a close above 192.69 would reinforce a short-term up move, while failure to clear resistance could keep sentiment range-bound."
+  },
+  "risk_levels": {
+    "support": [
+      186.3574,
+      182.5005,
+      170.31
+    ],
+    "resistance": [
+      192.69
+    ]
+  },
+  "full_assessment": "NVDA sits at a pivotal intersection: the technical snapshot shows a bearish trend signal with price around the 20-day moving average and above the 50-day, implying a potential pause or pullback unless the stock clears near-term resistance at 192.69. The news flow on 2025-12-31 is broadly positive for AI infrastructure and NVDA’s leadership in GPUs, with multiple pieces highlighting AI spending growth and NVDA’s market dominance. A cautious stance is warranted: constructive fundamental backdrop could support a break above resistance, triggering a short-term bullish setup, but the prevailing trend remains bearish until NVDA can sustain a move above the high-20d. Key near-term levels to watch are 186.36 (MA50) as support and 192.69 as resistance. If the stock can hold above 186.36 and push through 192.69, the risk-reward improves to the upside; failure to hold 186.36 risks further downside toward 170–182 area, aligning with the observed drawdown history. Overall sentiment is cautiously optimistic on a 1-week horizon given the AI-capital spending thesis, tempered by the current technical weakness.",
+  "_ops": {
+    "llm_latency_sec": 37.55468010902405,
+    "input_tokens": 2300,
+    "output_tokens": 4448,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.0018942000000000002
+  },
+  "_quant_eval": {
+    "predicted_support": 186.3574,
+    "predicted_resistance": 192.69,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": true,
+    "resistance_breached": true,
+    "mae_margin_pct": -1.42,
+    "coverage_ratio": 0.8
+  }
+}

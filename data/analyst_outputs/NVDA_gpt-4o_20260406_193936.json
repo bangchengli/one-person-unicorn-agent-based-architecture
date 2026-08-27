@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "gpt-4o"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "high_20d": 192.69,
+    "low_20d": 170.31,
+    "atr14": 4.995357142857141,
+    "vwap20": 181.56743094072553,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "positive",
+      "impact": "The news of increasing semiconductor spending driven by AI infrastructure is positive for Nvidia as it strengthens the demand for its GPUs."
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "negative",
+      "impact": "Michael Burry's decision to short Nvidia reflects skepticism around current AI stock valuations, casting a bearish sentiment on Nvidia."
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "positive",
+      "impact": "Nvidia's leading position in AI monetization compared to peers supports the bullish perspective for its AI revenue growth."
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "neutral to bearish",
+    "reasoning": "Despite positive long-term news, the technical trend is currently bearish and high annual volatility suggests possible downside risk."
+  },
+  "risk_levels": {
+    "support": [
+      170.31,
+      182.5
+    ],
+    "resistance": [
+      186.5,
+      192.69
+    ]
+  },
+  "full_assessment": "While positive trends in semiconductor spending and Nvidia's dominance in AI provide long-term growth potential, short-term factors such as high annual volatility and bearish technical indicators present a neutral to bearish outlook for the following week. Investors should be cautious of significant resistance near 186.5 and 192.69 and look for support levels around 170.31 and 182.50.",
+  "_ops": {
+    "llm_latency_sec": 8.639465808868408,
+    "input_tokens": 2124,
+    "output_tokens": 676,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.01207
+  },
+  "_quant_eval": {
+    "predicted_support": 182.5,
+    "predicted_resistance": 186.5,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 0.65,
+    "coverage_ratio": 0.2
+  }
+}

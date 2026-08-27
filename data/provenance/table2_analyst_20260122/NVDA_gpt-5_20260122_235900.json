@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2026-01-22",
+    "model": "gpt-5"
+  },
+  "market_snapshot": {
+    "available": true,
+    "last_close": 186.5,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "n_obs": 502,
+    "start_date": "2024-01-02",
+    "end_date": "2025-12-31"
+  },
+  "news_analysis": [
+    {
+      "headline": "Better Artificial Intelligence Stock: Nvidia vs. Meta Platforms",
+      "sentiment": "mixed",
+      "impact": "Relative-value framing tilts attention toward META, potentially softening marginal NVDA inflows despite strong AI leadership; minor near-term pressure."
+    },
+    {
+      "headline": "4 Top Artificial Intelligence Stocks to Buy Right Now",
+      "sentiment": "positive",
+      "impact": "Reinforces NVDA’s leadership in AI hardware and sustained demand narrative; supportive for dips, modest bullish sentiment impact."
+    },
+    {
+      "headline": "Forget Nvidia And Broadcom, These 5 Small-Cap Chip Stocks Could Rally Big This Year",
+      "sentiment": "slightly negative",
+      "impact": "Rotation risk headline draws incremental capital toward small/mid-cap peers; slight headwind to NVDA leadership premium."
+    },
+    {
+      "headline": "Magna International Inc. Announces Date for Q4 & Year End 2025 Results and 2026 Outlook Webcast",
+      "sentiment": "positive",
+      "impact": "Reference to NVIDIA DRIVE-compatible ECUs is constructive for automotive/AV optionality; small but tangible ecosystem tailwind."
+    },
+    {
+      "headline": "I Nailed My Nvidia Market Cap Prediction in 2025. Here's Where I Predict It's Going in 2026 (Hint: You're Going to Want to Buy Now)",
+      "sentiment": "positive",
+      "impact": "Bullish target and momentum narrative can buoy risk appetite; moderate sentiment lift though valuation-based follow-through uncertain."
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "sideways",
+    "reasoning": "Technical bias is mildly bearish (5d down, trend_signal bearish) with neutral RSI ~53 and price hovering just above the 50DMA. News flow skews slightly positive but includes rotation headlines. Expect range-bound trade with a buy-the-dip tone unless key supports break."
+  },
+  "risk_levels": {
+    "support": [
+      186.36,
+      182.5,
+      180
+    ],
+    "resistance": [
+      190,
+      195,
+      200
+    ]
+  },
+  "full_assessment": "NVDA closed at 186.5, marginally above the 50DMA (186.36) and comfortably above the 20DMA (182.5). Despite a neutral RSI (53) and a +2.8% 20d return, the near-term trend flag reads bearish and the 5d return is negative, pointing to waning momentum. News sentiment over the last day is net positive—buy-rated AI hardware pieces and a bullish market-cap call offset by relative-value (NVDA vs. META) and rotation-to-small-caps narratives. The ecosystem mention via Magna’s NVIDIA DRIVE compatibility is a constructive but secondary catalyst. Into the next week, high realized volatility (~51% annualized) and mixed flows suggest a range trade, with 186–190 as the immediate battleground. A sustained hold above 186.3 keeps the path open to 190/195; a break back below 186.3 increases risk of a drift toward 182.5 and 180. Traders: fade extremes toward these levels and watch for sentiment-driven pops that may stall at round-number resistances.",
+  "_ops": {
+    "llm_latency_sec": 50.712546825408936,
+    "input_tokens": 2151,
+    "output_tokens": 2728,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.02996875
+  }
+}

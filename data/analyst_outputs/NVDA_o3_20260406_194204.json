@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "as_of": "2025-12-31",
+    "model": "o3"
+  },
+  "market_snapshot": {
+    "last_close": 186.5,
+    "high_20d": 192.69,
+    "low_20d": 170.31,
+    "atr14": 4.995357142857141,
+    "vwap20": 181.56743094072553,
+    "return_5d": -0.014322710216161827,
+    "return_20d": 0.027774716190895665,
+    "ann_vol": 0.5108522226260331,
+    "max_drawdown": -0.3688683664592114,
+    "rsi14": 53.39005349912851,
+    "ma20": 182.50050000000002,
+    "ma50": 186.3574,
+    "trend_signal": "bearish",
+    "period": {
+      "start": "2024-01-02",
+      "end": "2025-12-31"
+    },
+    "n_obs": 502
+  },
+  "news_analysis": [
+    {
+      "headline": "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst",
+      "sentiment": "bullish",
+      "impact": "Reinforces secular demand story for GPUs and underpins longer-term multiple expansion for NVDA."
+    },
+    {
+      "headline": "Michael Burry Is Not Short Tesla Stock — Despite 'Ridiculous' Valuation",
+      "sentiment": "bearish",
+      "impact": "High-profile short thesis on AI names introduces near-term headline risk and could embolden profit-taking."
+    },
+    {
+      "headline": "1 Artificial Intelligence (AI) Revenue Machine You'll Want to Watch in 2026 (Hint: It's Beaten Everyone Except Nvidia)",
+      "sentiment": "bullish",
+      "impact": "Highlights NVDA’s dominance in AI hardware, supporting investor conviction despite competitive chatter."
+    }
+  ],
+  "forecast": {
+    "horizon": "1w",
+    "direction": "sideways_up",
+    "reasoning": "Technical bias is mildly bearish (price hugging 50-day and below 20-day high) but sentiment-weighted news flow skews positive. Expect consolidation between support at the 20-day VWAP (~181.6) and resistance at the recent swing high (~192.7) with slight upside bias if positive semiconductor demand narrative outweighs short-seller noise."
+  },
+  "risk_levels": {
+    "support": [
+      181.6,
+      178,
+      170.3
+    ],
+    "resistance": [
+      192.7,
+      200
+    ]
+  },
+  "full_assessment": "NVDA is in a digestion phase after a strong 20-day rally, reflected by an RSI near 53 and a neutral return profile. While the model flag is ‘bearish’, the price sits just above its 50-day average, and volatility has compressed (ATR ≈ 5). Fresh bullish headlines about a $1 trillion semiconductor market and NVDA’s sustained 90% data-center GPU share bolster the fundamental outlook. Offsetting this is renewed bearish commentary from Michael Burry, which may cap near-term momentum. Overall, risk/reward over the next week favors patient accumulation on pull-backs toward the VWAP band, with a breakout above $193 needed to re-ignite trend-following inflows.",
+  "_ops": {
+    "llm_latency_sec": 18.392290592193604,
+    "input_tokens": 2130,
+    "output_tokens": 1515,
+    "cached_inference_prompt_tokens": 0,
+    "cached_inference_completion_tokens": 0,
+    "autogen_reported_cost": 0.01638
+  },
+  "_quant_eval": {
+    "predicted_support": 181.6,
+    "predicted_resistance": 192.7,
+    "actual_1w_low": 183.71,
+    "actual_1w_high": 193.63,
+    "support_breached": false,
+    "resistance_breached": true,
+    "mae_margin_pct": 1.13,
+    "coverage_ratio": 1.0
+  }
+}

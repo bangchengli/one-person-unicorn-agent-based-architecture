@@ -1,0 +1,11 @@
+Model,Ticker,Date,Status,Latency (s),Input Tokens,Output Tokens,Est. Cost ($),Direction,Output Length,Support Breached,Resistance Breached,MAE Margin (%),Coverage Ratio
+claude-sonnet-4-20250514,NVDA,2026-04-06,Success,17.49,3111,987,0.024138,sideways_to_slightly_bearish,840,False,True,0.65,1.0
+meta-llama/llama-4-maverick,NVDA,2026-04-06,Success,9.08,2488,707,0.000797,up,316,False,True,1.99,1.0
+grok-4,NVDA,2026-04-06,Success,43.23,4358,763,0.024519,bearish,405,False,True,0.65,0.2
+gpt-4o,NVDA,2026-04-06,Success,8.64,2124,676,0.01207,neutral to bearish,387,False,True,0.65,0.2
+gpt-4o-mini,NVDA,2026-04-06,Success,16.57,2126,728,0.000756,sideways,420,False,True,7.18,1.0
+gpt-5-mini,NVDA,2026-04-06,Success,30.48,2298,2354,0.005283,slightly bearish,1068,False,True,1.15,0.2
+gpt-5-nano,NVDA,2026-04-06,Success,37.55,2300,4448,0.001894,mixed-to-bullish,1110,True,True,-1.42,0.8
+gpt-5,NVDA,2026-04-06,Success,40.22,2296,2931,0.03218,range-bound with slight upside bias,1113,True,True,-1.42,0.6
+o3,NVDA,2026-04-06,Success,18.39,2130,1515,0.01638,sideways_up,658,False,True,1.13,1.0
+o4-mini,NVDA,2026-04-06,Success,21.97,2132,2348,0.012676,neutral,410,False,True,0.65,0.2
