@@ -8,8 +8,7 @@ python-dotenv>=1.0
 openai>=1.40
 pyautogen>=0.2.30
 
-# Portfolio optimization + reporting
-PyPortfolioOpt>=1.5.5
+# Reporting
 matplotlib>=3.7
 
 # Parquet price cache

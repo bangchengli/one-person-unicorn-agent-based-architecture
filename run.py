@@ -57,7 +57,7 @@ def cmd_doctor(_args) -> int:
 
     println("\n== dependencies ==")
     for mod in ("pandas", "numpy", "requests", "openai", "autogen",
-                "pypfopt", "matplotlib", "pyarrow"):
+                "matplotlib", "pyarrow"):
         try:
             __import__(mod)
             println(f"  ok  {mod}")

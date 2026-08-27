@@ -47,8 +47,6 @@ DEEPSEEK_API_KEY: str = os.getenv("DEEPSEEK_API_KEY", "").strip()
 XAI_API_KEY: str = os.getenv("XAI_API_KEY", "").strip()
 LLAMA_API_KEY: str = os.getenv("LLAMA_API_KEY", "").strip()
 POLYGON_API_KEY: str = os.getenv("POLYGON_API_KEY", "").strip()
-FINNHUB_API_KEY: str = os.getenv("FINNHUB_API_KEY", "").strip()
-FMP_API_KEY: str = os.getenv("FMP_API_KEY", "").strip()
 
 PROVIDER_ENV = {
     "openai": "OPENAI_API_KEY",
