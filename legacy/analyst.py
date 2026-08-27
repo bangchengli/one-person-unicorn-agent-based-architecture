@@ -612,9 +612,9 @@ if __name__ == "__main__":
         "claude-sonnet-4-20250514", "meta-llama/llama-4-maverick", "grok-4",
         "gpt-4o", "gpt-4o-mini", "gpt-5-mini", "gpt-5-nano", "gpt-5", "o3", "o4-mini"
     ]
-    CONFIG_PATH = r"C:\Users\bangc\one-person-unicorn-infra\OAI_CONFIG_LIST"
-    KEYS_PATH = r"C:\Users\bangc\one-person-unicorn-infra\config_api_keys"
-    OUT_DIR = r"C:\Users\bangc\one-person-unicorn-infra\data\analyst_outputs"
+    CONFIG_PATH = r"<repo>\OAI_CONFIG_LIST"
+    KEYS_PATH = r"<repo>\config_api_keys"
+    OUT_DIR = r"<repo>\data\analyst_outputs"
 
     df = run_batch_experiment(TICKER, START, END, MODELS, CONFIG_PATH, KEYS_PATH, OUT_DIR)
 

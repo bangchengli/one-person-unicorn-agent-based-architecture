@@ -22,8 +22,7 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[0]))
-REPO = Path(r"C:\Users\bangc\one-person-unicorn-infra")
+REPO = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO))
 
 from portfolio.metrics import (  # noqa: E402
